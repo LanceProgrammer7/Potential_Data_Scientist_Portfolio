@@ -1,2 +1,2 @@
 # Potential_Data_Science_Portfolio_Projects
-My potential data science portfolio projects
+My potential data science portfolio projects.
