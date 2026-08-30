@@ -1,2 +1,2 @@
-# Potential_Data_Science_Portfolio_Projects
-My potential data science portfolio projects.
+# Potential Data Scientist Portfolio
+Exploring problems through data — machine learning, statistical analysis, and insights that drive decisions.
