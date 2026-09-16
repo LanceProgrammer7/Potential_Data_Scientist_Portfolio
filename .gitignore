@@ -1,0 +1,127 @@
+# -------------------------
+# Secrets and credentials
+# -------------------------
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+credentials/
+secrets/
+config.local.*
+
+# -------------------------
+# Operating-system files
+# -------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# -------------------------
+# Editors and IDEs
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# Python environments
+# -------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# -------------------------
+# R files, if applicable
+# -------------------------
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# -------------------------
+# Private and raw data
+# -------------------------
+data/raw/
+data/private/
+data/confidential/
+
+# Keep only approved sample data
+# data/sample/
+
+# -------------------------
+# Generated data
+# -------------------------
+data/processed/
+data/interim/
+data/generated/
+
+# -------------------------
+# Machine-learning artifacts
+# -------------------------
+models/
+checkpoints/
+runs/
+mlruns/
+wandb/
+.tensorboard/
+lightning_logs/
+
+# Common model files
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# -------------------------
+# Local databases and vector stores
+# -------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+chroma/
+chroma_db/
+.vectorstore/
+faiss_index/
+
+# -------------------------
+# Reports, charts, and exports
+# -------------------------
+output/
+exports/
+reports/generated/
+figures/generated/
+
+# -------------------------
+# Temporary files and logs
+# -------------------------
+tmp/
+temp/
+.cache/
+*.log
+*.tmp
+*.bak
+
+# -------------------------
+# Large archives
+# -------------------------
+*.zip
+*.7z
+*.tar
+*.gz
